@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/*Prints sizes of characters*/
+/**
+*Prints sizes of characters
+*main - prints byte size of variables
+*/
 
 int main(void)
 
