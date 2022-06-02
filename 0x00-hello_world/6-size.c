@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-*Prints sizes of characters
 *main - prints byte size of variables
+*Return: Always 0 (success)
 */
 
 int main(void)
