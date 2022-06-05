@@ -33,14 +33,18 @@ int main(void)
 
 			{
 
-			if (j != i && j > i ){
+			if (j != i && j > i)
+			{
 
 			putchar('0' + i);
 			putchar('0' + j);
-			putchar(',');
-			putchar(' ');
+			if (i + j != 17)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 
-                    }
+			}
 				j++;
 
 			}
