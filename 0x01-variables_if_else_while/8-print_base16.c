@@ -10,17 +10,14 @@
 
 int main(void)
 {
-
 	char hex_num = '0';
-
 	char hex_let;
 
-	do{
+	while (hex_num <= '9')
+	{
 		putchar(hex_num);
 		hex_num++;
 	}
-
-	while (hex_num <= '9');
 
 	for (hex_let = 'a'; hex_let <= 'f'; hex_let++)
 	{
