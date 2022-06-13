@@ -6,15 +6,16 @@
  * Return: integer legth of a string
  */
 
-int _strlen(char *str)
+int _strlen(char *s)
 
 {
 	int length;
+
 	length = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
-		str++;
+		s++;
 		length++;
 	}
 
